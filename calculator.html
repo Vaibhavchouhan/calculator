@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<script src="js/script.js" ></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="main">
+            <form>
+                <input id="inputbox" type="text" placeholder="0.0" readonly>
+                <input id="backspace" type="button" value="<-" onclick="backspc()">
+                <div class="buttons">
+                    <input type="button" value="/" onclick="btnpress(this)">
+                    <input type="button" value="9" onclick="btnpress(this)">
+                    <input type="button" value="8" onclick="btnpress(this)">
+                    <input type="button" value="7" onclick="btnpress(this)">
+                    <input type="button" value="*" onclick="btnpress(this)">
+                    <input type="button" value="6" onclick="btnpress(this)">
+                    <input type="button" value="5" onclick="btnpress(this)">
+                    <input type="button" value="4" onclick="btnpress(this)">
+                    <input type="button" value="+" onclick="btnpress(this)">
+                    <input type="button" value="3" onclick="btnpress(this)">
+                    <input type="button" value="2" onclick="btnpress(this)">
+                    <input type="button" value="1" onclick="btnpress(this)">
+                    <input type="button" value="-" onclick="btnpress(this)">
+                    <input type="button" value="." onclick="btnpress(this)">
+                    <input type="button" value="0" onclick="btnpress(this)">
+                    <input type="button" value="C" onclick="clearall()">
+                </div>
+                <input type="submit" value="=" onclick="return ans();">
+            </form>
+        </div>
+    </body>
+</html>
+

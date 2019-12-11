@@ -1,0 +1,47 @@
+body {
+    background-color: #515151;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #f1f1f1;
+    width: 85%;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid green;
+    border-radius: 5px;
+    overflow: hidden ;
+}
+.main form input{
+    border: 1px solid green;
+    border-radius: 10px;
+    outline-style: none;
+}
+.main form input[type="text"]{
+    width: 99.5%;
+    font-size: 50px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.main form .buttons{
+    width: 100%;
+}
+.main form input[type="button"], .main form input[type="submit"]{
+    font-size: 35px;
+    height: 40px;
+}
+.main form input[type="button"]:active, .main form input[type="submit"]:active {
+    background-color: #515151;
+    color: #f1f1f1;
+}
+.main form input[type="submit"]{
+    margin-top: 10px;
+    width: 100%;
+}
+#backspace{
+    margin-left: 75%;
+    width: 25%;
+}
+.main form .buttons input[type="button"]{
+    width: 25%;
+    float: right;
+}
